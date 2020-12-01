@@ -1,10 +1,10 @@
 {
-  "name": "theme-starter",
-  "title": "Starter Theme",
-  "displayName": "Starter Theme",
+  "name": "rose-pine",
+  "title": "Rosé Pine",
+  "displayName": "Rosé Pine",
   "theme": "ui",
   "version": "0.1.0",
-  "description": "A great dark theme to start your own themes.",
+  "description": "soho vibes for mailspring",
   "license": "MIT",
   "engines": {
     "mailspring": "*"
