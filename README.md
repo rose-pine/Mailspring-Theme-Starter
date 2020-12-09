@@ -1,61 +1,21 @@
-# Mailspring Theme Starter
+<img src="https://github.com/rose-pine/rose-pine-theme/raw/master/assets/icon.png" width="64" />
 
-The Mailspring Theme Starter is a basic starting point for creating a theme for
-the [Mailspring](http://www.getmailspring.com/) email client.
+# Rosé Pine for Example App
 
-<img src="https://raw.githubusercontent.com/Foundry376/Mailspring-Theme-Starter/master/screenshot/custom-theme.png" />
+> Maintained by our lovely community ☺️
 
-## Getting Started
+All natural pine, faux fur and a bit of soho vibes for the classy minimalist.
 
-Creating a new theme in Mailspring is easy! Here's how you can do it.
+[![](https://img.shields.io/badge/Rosé%20Pine%20Theme-191724)](https://github.com/rose-pine/rose-pine-theme)
 
-1. Fork this repo or download the code. Add a name, display name, title, and
-   description for your theme to `package.json`, and change the directory name
-   to match.
+## Usage
 
-2. Open Mailspring  and install the theme by going to `Mailspring > Install New Theme...`
-   and selecting the directory.
+Settings > Import theme > The theme folder > Settings > Change theme > Rosé Pine
 
-3. Choose `Developer > Run With Debug Flags` for easier debugging.
+## Screenshots
 
-4. Now, you can start playing with the theme! It's installed in
-   `~/Library/Application Support/Mailspring/packages/THEME_NAME` (on macOS), so
-   open it from there. Most of Mailspring's React components are derived from
-   the core variables defined in `ui-variables.less`, and any changes you make
-   there will override the defaults for Mailspring. You can also add more LESS
-   files in `styles` (ideally, separated into logical components like
-   `thread-list.less`) to make your own specific changes. To reload the theme,
-   just open the console (`Developer > Toggle Developer Tools`) and type
+![mailspring](https://i.imgur.com/XZjtsdF.png)
 
-   ```
-   AppEnv.themes.setActiveTheme('ui-light');
-   AppEnv.themes.setActiveTheme('your-theme-name');
-   ```
+## Thanks to 
 
-5. Once you're happy with your theme, check how it looks in the theme picker
-   (`Mailspring > Change Theme...`). We use your UI variables to pull the
-   colors, but if you want to add your own selections to the color palette,
-   create a `theme-colors.less` file that includes any of the variables that you
-   want to change, and they'll only affect the theme preview. Here are the
-   variables, on the left, with the part of the theme preview that they match:
-
-   ```
-   @background-secondary:     BACKGROUND_COLOR
-   @text-color:               TEXT_COLOR, FIRST_SWATCH_COLOR
-   @component-active-color:   MIDDLE_SWATCH_COLOR
-   @toolbar-background-color: LAST_SWATCH_COLOR
-   @panel-background-color:   STRIP_COLOR
-   ```
-
-## Structure
-
-```
-.
-├── styles                 # All stylesheets
-|   ├── index.less             # Main LESS file to import your stylesheets
-│   ├── ui-variables.less  # UI variables that override N1's defaults
-│   ├── theme-colors.less  # Theme colors for theme preview (optional)
-├── package.json           # Metadata about the theme
-├── LICENSE.md             # License with usage rights
-└── README.md              # Info about your theme and how to use it
-```
+- [ThatOneCalculator](https://twitter.com/that1calculator)
