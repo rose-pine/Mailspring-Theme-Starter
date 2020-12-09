@@ -16,6 +16,6 @@ Settings > Import theme > The theme folder > Settings > Change theme > Rosé Pin
 
 ![mailspring](https://i.imgur.com/XZjtsdF.png)
 
-## Thanks to 
+## Thanks to
 
-- [ThatOneCalculator](https://twitter.com/that1calculator)
+- [ThatOneCalculator](https://github.com/thatonecalculator)
